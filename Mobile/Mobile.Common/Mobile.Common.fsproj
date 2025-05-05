@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OtherFlags>$(OtherFlags) --reflectionfree</OtherFlags>
+  </PropertyGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="Styles\*" />
+    <Compile Include="Bindings.fs" />
+    <Compile Include="App.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AvaloniaResource Update="Styles\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </AvaloniaResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Plugin.Maui.Audio\Plugin.Maui.Audio.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.3.0" />
+    <PackageReference Include="Fabulous.Avalonia" Version="3.0.0-pre11" />
+    <PackageReference Include="Material.Avalonia" Version="3.11.0" />
+    <PackageReference Include="Microsoft.Maui.Essentials" Version="9.0.60" />
+    <PackageReference Include="Projektanker.Icons.Avalonia.MaterialDesign" Version="9.6.1" />
+  </ItemGroup>
+</Project>

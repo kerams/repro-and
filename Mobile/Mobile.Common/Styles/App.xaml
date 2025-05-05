@@ -1,0 +1,40 @@
+<Styles
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:themes="clr-namespace:Material.Styles.Themes;assembly=Material.Styles"
+    xmlns:assists="clr-namespace:Material.Styles.Assists;assembly=Material.Styles"
+    xmlns:controls="clr-namespace:Material.Styles.Controls;assembly=Material.Styles"
+    xmlns:tanker="clr-namespace:Projektanker.Icons.Avalonia;assembly=Projektanker.Icons.Avalonia"
+    xmlns:repro="clr-namespace:Mobile.Common">
+    <themes:MaterialTheme PrimaryColor="DeepOrange" SecondaryColor="LightBlue" />
+
+    <Styles.Resources>
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="primary">#8e3343</SolidColorBrush>
+            <SolidColorBrush x:Key="primaryContent">#f2f2f2</SolidColorBrush>
+            <SolidColorBrush x:Key="secondary">#799034</SolidColorBrush>
+            <SolidColorBrush x:Key="secondaryContent">#f2f2f2</SolidColorBrush>
+            <SolidColorBrush x:Key="accent">#3f95ca</SolidColorBrush>
+            <SolidColorBrush x:Key="accentContent">#f2f2f2</SolidColorBrush>
+
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Dark">
+                    <SolidColorBrush x:Key="baseContent">#f2f2f2</SolidColorBrush>
+                    <SolidColorBrush x:Key="neutral">#313131</SolidColorBrush>
+                    <SolidColorBrush x:Key="base100">#313131</SolidColorBrush>
+                    <SolidColorBrush x:Key="base200">#3b3b3b</SolidColorBrush>
+                    <SolidColorBrush x:Key="base250">#404040</SolidColorBrush>
+                    <SolidColorBrush x:Key="base300">#4a4a4a</SolidColorBrush>
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="Light">
+                    <SolidColorBrush x:Key="baseContent">#1f2328</SolidColorBrush>
+                    <SolidColorBrush x:Key="neutral">#ffffff</SolidColorBrush>
+                    <SolidColorBrush x:Key="base100">#ffffff</SolidColorBrush>
+                    <SolidColorBrush x:Key="base200">#eeeeee</SolidColorBrush>
+                    <SolidColorBrush x:Key="base250">#ebebeb</SolidColorBrush>
+                    <SolidColorBrush x:Key="base300">#dddddd</SolidColorBrush>
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </Styles.Resources>
+</Styles>

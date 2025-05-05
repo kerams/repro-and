@@ -1,0 +1,27 @@
+﻿namespace Plugin.Maui.Audio;
+
+/// <summary>
+/// Provides the ability to play audio.
+/// </summary>
+public interface IAudioPlayer : IAudio
+{
+	///<Summary>
+	/// Raised when audio playback completes successfully.
+	///</Summary>
+	event EventHandler PlaybackEnded;
+
+	///<Summary>
+	/// Begin playback or resume if paused.
+	///</Summary>
+	void Play(byte[] data);
+
+	///<Summary>
+	/// Pause playback if playing (does not resume).
+	///</Summary>
+	void Pause();
+
+	///<Summary>
+	/// Stop playback and set the current position to the beginning.
+	///</Summary>
+	void Stop();
+}

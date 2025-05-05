@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Mobile/">
+    <Project Path="Mobile\Mobile.Android\Mobile.Android.fsproj">
+      <Deploy />
+    </Project>
+    <Project Path="Mobile\Mobile.Common\Mobile.Common.fsproj" />
+  </Folder>
+  <Folder Name="/Other/">
+    <Project Path="Plugin.Maui.Audio\Plugin.Maui.Audio.csproj" />
+  </Folder>
+</Solution>
