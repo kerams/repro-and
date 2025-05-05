@@ -13,7 +13,6 @@ deployAdmin
 trim_icons2.js
 launchSettings.json
 /data/
-*.csproj
 Fable.SignalR*/
 sum.xml
 _global.json
